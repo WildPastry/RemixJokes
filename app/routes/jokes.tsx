@@ -21,8 +21,10 @@ type LoaderData = {
   jokeListItems: Array<Joke>;
 };
 
-export const loader: LoaderFunction = async ({params}) => {
-  console.log(params)
+export const loader: LoaderFunction = async ({
+  params,
+}) => {
+  console.log('params', params);
   const data: LoaderData = {
     jokeListItems: await db.joke.findMany({
       take: 5,

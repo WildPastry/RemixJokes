@@ -16,6 +16,10 @@ function getJokes() {
 
   return [
     {
+      name: "Fish Fingers",
+      content: `I always liked fish fingers, but then again.`,
+    },
+    {
       name: "Road worker",
       content: `I never wanted to believe that my Dad was stealing from his job as a road worker. But when I got home, all the signs were there.`,
     },

@@ -8,8 +8,7 @@
     "build": "remix build",
     "dev": "remix dev",
     "start": "remix-serve build",
-    "reset": "npx prisma db push --force-reset",
-    "seed": "node --require esbuild-register prisma/seed.ts"
+    "reset": "npx prisma db push --force-reset && node --require esbuild-register prisma/seed.ts"
   },
   "dependencies": {
     "@prisma/client": "^4.6.1",
