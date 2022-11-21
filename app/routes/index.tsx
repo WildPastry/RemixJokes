@@ -6,8 +6,9 @@ import stylesUrl from "~/styles/index.css";
 export const links: LinksFunction = () => {
   return [{ rel: "stylesheet", href: stylesUrl }];
 };
-console.log("IndexRoute");
+
 const IndexRoute = (): JSX.Element => {
+  console.log('test');
   return (
     <div className="container">
       <div className="content">
