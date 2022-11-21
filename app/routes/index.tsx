@@ -6,8 +6,8 @@ import stylesUrl from "~/styles/index.css";
 export const links: LinksFunction = () => {
   return [{ rel: "stylesheet", href: stylesUrl }];
 };
-
-export default function IndexRoute() {
+console.log("IndexRoute");
+const IndexRoute = (): JSX.Element => {
   return (
     <div className="container">
       <div className="content">
@@ -24,4 +24,6 @@ export default function IndexRoute() {
       </div>
     </div>
   );
-}
+};
+
+export default IndexRoute;
