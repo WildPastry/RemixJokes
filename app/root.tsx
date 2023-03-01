@@ -29,6 +29,7 @@ export const links: LinksFunction = () => {
 };
 
 export default function App() {
+  console.log('working')
   return (
     <html lang="en">
       <head>
