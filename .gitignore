@@ -1,6 +1,6 @@
-node_modules
-
+.env
 /.cache
 /build
+/prisma/dev.db
 /public/build
-.env
+node_modules
