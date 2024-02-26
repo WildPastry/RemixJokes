@@ -26,7 +26,7 @@
     "@types/react-dom": "^18.2.19",
     "esbuild-register": "^3.5.0",
     "eslint": "^8.56.0",
-    "prisma": "^5.9.1",
+    "prisma": "^5.10.2",
     "typescript": "^5.3.3"
   },
   "engines": {
