@@ -22,7 +22,7 @@
   "devDependencies": {
     "@remix-run/dev": "^2.16.4",
     "@remix-run/eslint-config": "^2.16.4",
-    "@types/react": "^19.1.0",
+    "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.1",
     "esbuild-register": "^3.6.0",
     "eslint": "^9.23.0",
