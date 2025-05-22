@@ -11,22 +11,22 @@
     "reset": "npx prisma db push --force-reset && node --require esbuild-register prisma/seed.ts"
   },
   "dependencies": {
-    "@prisma/client": "^6.7.0",
-    "@remix-run/node": "^2.16.6",
-    "@remix-run/react": "^2.16.6",
-    "@remix-run/serve": "^2.16.6",
+    "@prisma/client": "^6.8.2",
+    "@remix-run/node": "^2.16.7",
+    "@remix-run/react": "^2.16.7",
+    "@remix-run/serve": "^2.16.7",
     "isbot": "^5.1.28",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.16.6",
-    "@remix-run/eslint-config": "^2.16.6",
-    "@types/react": "^19.1.4",
+    "@remix-run/dev": "^2.16.7",
+    "@remix-run/eslint-config": "^2.16.7",
+    "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
     "esbuild-register": "^3.6.0",
-    "eslint": "^9.26.0",
-    "prisma": "^6.7.0",
+    "eslint": "^9.27.0",
+    "prisma": "^6.8.2",
     "typescript": "^5.8.3"
   },
   "engines": {
