@@ -27,7 +27,7 @@
     "esbuild-register": "^3.6.0",
     "eslint": "^10.1.0",
     "prisma": "^7.5.0",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   },
   "engines": {
     "node": ">=14"
