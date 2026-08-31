@@ -23,7 +23,7 @@
     "@remix-run/dev": "^2.17.5",
     "@remix-run/eslint-config": "^2.17.5",
     "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.4",
+    "@types/react-dom": "^19.2.5",
     "esbuild-register": "^3.6.0",
     "eslint": "^10.9.0",
     "prisma": "^7.9.1",
